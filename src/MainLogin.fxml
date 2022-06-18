@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="713.0" prefWidth="962.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <ImageView fitHeight="722.0" fitWidth="971.0" layoutX="-5.0" layoutY="-5.0" opacity="0.54">
+         <image>
+            <Image url="@images/background.jpeg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="227.0" layoutY="185.0" prefHeight="342.0" prefWidth="508.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <ImageView fitHeight="59.0" fitWidth="170.0" layoutX="169.0" layoutY="44.0">
+               <image>
+                  <Image url="@images/logo.png" />
+               </image>
+            </ImageView>
+            <BorderPane layoutX="43.0" layoutY="103.0" prefHeight="179.0" prefWidth="184.0">
+               <center>
+                  <ImageView fitHeight="142.0" fitWidth="151.0">
+                     <image>
+                        <Image url="@images/person%20icon.png" />
+                     </image>
+                  </ImageView>
+               </center>
+               <bottom>
+                  <Button mnemonicParsing="false" onAction="#switchToEmployeeLogin" prefHeight="37.0" prefWidth="169.0" style="-fx-background-color: #000000;" text="STAFF" textFill="WHITE" BorderPane.alignment="CENTER">
+                     <font>
+                        <Font name="Courier New Bold" size="20.0" />
+                     </font>
+                  </Button>
+               </bottom>
+            </BorderPane>
+            <BorderPane layoutX="280.0" layoutY="103.0" prefHeight="179.0" prefWidth="184.0">
+               <center>
+                  <ImageView fitHeight="142.0" fitWidth="151.0">
+                     <image>
+                        <Image url="@images/person%20icon.png" />
+                     </image>
+                  </ImageView>
+               </center>
+               <bottom>
+                  <Button mnemonicParsing="false" onAction="#switchToCustomerLogin" prefHeight="37.0" prefWidth="169.0" style="-fx-background-color: #000000;" text="EMPLOYEE" textFill="WHITE" BorderPane.alignment="CENTER">
+                     <font>
+                        <Font name="Courier New Bold" size="20.0" />
+                     </font>
+                  </Button>
+               </bottom>
+            </BorderPane>
+         </children>
+         <effect>
+            <Blend />
+         </effect>
+      </AnchorPane>
+   </children>
+</AnchorPane>

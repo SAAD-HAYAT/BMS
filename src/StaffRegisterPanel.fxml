@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="396.0" prefWidth="474.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+<children>
+    <Label layoutX="117.0" layoutY="24.0" text="Employee Registration">
+        <font>
+            <Font name="Impact" size="20.0" />
+        </font>
+    </Label>
+      <Label layoutX="95.0" layoutY="62.0" text="Username: ">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField layoutX="190.0" layoutY="59.0" prefHeight="6.0" prefWidth="168.0" />
+      <Label layoutX="95.0" layoutY="94.0" text="Password: ">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField layoutX="190.0" layoutY="91.0" prefHeight="26.0" prefWidth="168.0" />
+      <TextField layoutX="190.0" layoutY="123.0" prefHeight="26.0" prefWidth="168.0" />
+      <TextField layoutX="190.0" layoutY="154.0" prefHeight="26.0" prefWidth="168.0" />
+      <TextField layoutX="190.0" layoutY="185.0" prefHeight="26.0" prefWidth="168.0" />
+      <TextField layoutX="190.0" layoutY="216.0" prefHeight="26.0" prefWidth="168.0" />
+      <TextField layoutX="190.0" layoutY="246.0" prefHeight="26.0" prefWidth="168.0" />
+      <TextField layoutX="190.0" layoutY="277.0" prefHeight="26.0" prefWidth="168.0" />
+      <TextField layoutX="190.0" layoutY="308.0" prefHeight="26.0" prefWidth="168.0" />
+      <Label layoutX="95.0" layoutY="126.0" text="Email: ">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField layoutX="190.0" layoutY="339.0" prefHeight="26.0" prefWidth="168.0" />
+      <Label layoutX="96.0" layoutY="157.0" text="CNIC: ">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="96.0" layoutY="188.0" text="Gender:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="96.0" layoutY="219.0" text="Address:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+</children>
+</AnchorPane>
